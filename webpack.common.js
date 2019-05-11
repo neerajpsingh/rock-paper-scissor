@@ -1,3 +1,5 @@
+const Webpack = require('webpack');
+
 module.exports = {
   entry: {
     main: './src/index.js',
@@ -10,5 +12,11 @@ module.exports = {
         use: ['html-loader']
       }
     ]
-  }
+  },
+  plugins: [
+    new Webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery'
+    })
+  ]
 }
