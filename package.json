@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobimr/rock-paper-scissors.git"
+    "url": "git+https://github.com/neerajpsingh/rock-paper-scissor.git"
   },
   "author": "Jacobo Martinez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cobimr/rock-paper-scissors/issues"
+    "url": "https://github.com/neerajpsingh/rock-paper-scissor/issues"
   },
-  "homepage": "https://github.com/cobimr/rock-paper-scissors#readme",
+  "homepage": "https://github.com/neerajpsingh/rock-paper-scissor#readme",
   "devDependencies": {
     "bootstrap": "^4.5.0",
     "clean-webpack-plugin": "^3.0.0",
